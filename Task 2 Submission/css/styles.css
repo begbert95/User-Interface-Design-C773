@@ -73,28 +73,63 @@ input {
 .div-left,
 .div-right {
     height: inherit;
-    width: 12.5%;
+    width: 10%;
     display: inline-block;
     background-image: linear-gradient(to right, var(--ppp-s), white, var(--ppp-s));
     flex-grow: 1;
 }
 
-.div-main-content {
-    width: 75%;
-    padding-top: 15px;
-    flex-grow: 75%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.top-of-page {
-    padding-top: 30px;
-}
-
 .div-body-content {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: stretch;
     border-style: solid;
     border-color: black;
 }
+
+.div-main-content {
+    width: 85%;
+    padding-top: 15px;
+    flex-grow: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.top-of-page {
+    padding: 30px;
+}
+
+#cat-jail {
+    max-width: 35%;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-and-image {
+    display: float;
+}
+
+h* {
+    color: var(--ppp-db);
+    text-align: center;
+}
+
+h3 {
+    color: var(--ppp-db);
+}
+
+
+/* .shrink-photo {
+    max-width: 40%;
+    margin: 20px;
+} */
+
+
+/* .img-div {
+    /* flex: calc(); 
+    padding-left: 1%;
+    max-width: 20%;
+    overflow: hidden;
+} */
