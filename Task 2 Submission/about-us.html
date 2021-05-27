@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html>
-<header>
-    <meta>
-    <title>Paradigm Pet Professionals</title>
-    <link rel="stylesheet" href="styles.css">
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <title>Home - Paradigm Pet Professionals</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="ppp, Paradigm, pet, Professionals, Paradigm pet Professionals, pets, dogs, cats, animals, Pexperts, small animals, small-animal">
     <meta name="author" content="Brandon Egbert">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</header>
+</head>
 
 <body>
-    <div>
+
+
+
+    <header>
         <a href="index.html">
-            <img src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
+            <img id="ppp-logo" class="h-100" src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
         </a>
-        <h1>Paradigm Pet Professionals</h1>
-        <p>Evidence-based pet care advice for every pet lover</p>
-    </div>
-    <nav>
-        <ul><a href="index.html">Home</a></ul>
-        <ul><a href="dogs.html">Dogs</a></ul>
-        <ul><a href="cats.html">Cats</a></ul>
-        <ul><a href="birds.html">Birds</a></ul>
-        <ul><a href="contact-us.html">Contact Us</a></ul>
-        <ul><a href="about-us.html">About Us</a></ul>
+        <div class="ppp-slogan">
+            <h1 id="ppp" class="display-3">Paradigm Pet Professionals</h1>
+            <p id="slogan" class="slogan fs-4 fst-italic">Evidence-based pet care advice for every pet lover</p>
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark py-0">
+        <div class="container-fluid h-100 my-0">
+            <div class="collapse navbar-collapse h-100">
+                <div class="navbar-nav fs-5 h-100">
+                    <a class="nav-link h-100" href="index.html">Home</a>
+                    <a class="nav-link h-100" href="dogs.html">Dog Owners</a>
+                    <a class="nav-link h-100" href="cats.html">Cat Owners</a>
+                    <a class="nav-link h-100" href="birds.html">Bird Owners</a>
+                    <a class="nav-link h-100" href="contact-us.html">Contact Us</a>
+                    <a class="nav-link h-100 active" href="about-us.html">About Us</a>
+                </div>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2 fs-6" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Fetch</button>
+            </form>
+        </div>
     </nav>
-    <div>
-        <p>
-            Paradigm Pet Professionals has 12 years’ experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support • Services: virtual consultations and presentations, one-on-one consultations concerning
-            individual pets, group presentations regarding general pet care (can be tailored to the needs of the group)
-        </p>
+
+
+
+    <div class="div-body-content fs-5">
+
+        <div class="div-left">
+        </div>
+
+        <div class="div-main-content d-grid m-3 align-items-center mb-6">
+            <h1 class="row p-4 text-center">
+                About Us
+            </h1>
+            <div class="row">
+                <img class="img-fluid img-thumbnail rounded-3 w-50 col" src="imgs/conference photo.jpg">
+                <p class="p-2 col ml-1 fs-4">
+                    Paradigm Pet Professionals has 12 years’ experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support Services: virtual consultations and presentations, one-on-one consultations concerning
+                    individual pets, group presentations regarding general pet care (can be tailored to the needs of the group)
+                </p>
+            </div>
+        </div>
+        <div class="div-right">
+        </div>
     </div>
+    <footer class="bg-db d-grid w-100">
+        <div class="row text-white justify-content-md-center">
+            <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
+            <a class="col col-lg-3 pt-4 link-light" href="contact-us.html">Contact Us</a>
+            <a href="index.html" class="w-5">
+                <img class="img-fluid img-thumbnail shrink-photo mt-2" src="imgs/dog logo.png">
+            </a>
+        </div>
+        <div class="copyright row text-center fc-s">
+            <P>Copyright © 2021 Paradigm Pet Professionals, All Rights Reserved</P>
+        </div>
+    </footer>
 </body>
 
 </html>

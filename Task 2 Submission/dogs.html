@@ -1,54 +1,142 @@
 <!DOCTYPE html>
-<html>
-<header>
-    <meta>
-    <title>Paradigm Pet Professionals</title>
-    <link rel="stylesheet" href="styles.css">
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+    <title>Home - Paradigm Pet Professionals</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="ppp, Paradigm, pet, Professionals, Paradigm pet Professionals, pets, dogs, cats, animals, Pexperts, small animals, small-animal">
     <meta name="author" content="Brandon Egbert">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</header>
+</head>
 
 <body>
-    <div>
+
+
+
+    <header>
         <a href="index.html">
-            <img src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
+            <img id="ppp-logo" class="h-100" src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
         </a>
-        <h1>Paradigm Pet Professionals</h1>
-        <p>Evidence-based pet care advice for every pet lover</p>
-    </div>
-    <nav>
-        <ul><a href="index.html">Home</a></ul>
-        <ul><a href="dogs.html">Dogs</a></ul>
-        <ul><a href="cats.html">Cats</a></ul>
-        <ul><a href="birds.html">Birds</a></ul>
-        <ul><a href="contact-us.html">Contact Us</a></ul>
-        <ul><a href="about-us.html">About Us</a></ul>
+        <div class="ppp-slogan">
+            <h1 id="ppp" class="display-3">Paradigm Pet Professionals</h1>
+            <p id="slogan" class="slogan fs-4 fst-italic">Evidence-based pet care advice for every pet lover</p>
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark py-0">
+        <div class="container-fluid h-100 my-0">
+            <div class="collapse navbar-collapse h-100">
+                <div class="navbar-nav fs-5 h-100">
+                    <a class="nav-link h-100" href="index.html">Home</a>
+                    <a class="nav-link h-100 active" href="dogs.html">Dog Owners</a>
+                    <a class="nav-link h-100" href="cats.html">Cat Owners</a>
+                    <a class="nav-link h-100" href="birds.html">Bird Owners</a>
+                    <a class="nav-link h-100" href="contact-us.html">Contact Us</a>
+                    <a class="nav-link h-100" href="about-us.html">About Us</a>
+                </div>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2 fs-6" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Fetch</button>
+            </form>
+        </div>
     </nav>
-    <div>
-        <p>
-            The domestic dog is an extremely social animal and offers a diverse variety of choices as there are well over 300 breeds recognized by the World Canine Organization. Adopting a dog offers mutual benefits between dog and owner. Many studies cite the social
-            benefits of having a companion as well as the reduced feelings of loneliness from adopting a dog. Studies even show medical indicators such as reduced blood pressure and improved lipid profiles. If you have a dog, it is important to make sure
-            that you care for your dog; be mindful of what you feed your dog and provide enough opportunities for exercise. In this page, you will find more information about how to care for your pets throughout the various stages of their lives. Diet
-            & Exercise Throughout dogs’ lifespans, they should generally be fed fewer meals as they mature. Puppies should be nursed the first two months, then introduced to three meals per day when they are about three to six months years old. Their
-            food intake should be reduced to two meals per day when they are six months to one year old and finally reduced to one meal after they reach one year old. And a dog’s typical body mass is composed of somewhere between 60 and 70 percent water.
-            The ASPCA says just a 10 percent decrease in body water can cause illness, and a 15 percent loss can cause death, so make sure you keep your pooch hydrated! Much like humans, dogs need to have a healthy level of activity to keep their organs
-            healthy, as well as sun and fresh air. The minimum recommended time for exercise varies greatly with breed and size differences, but generally a range of 30–120 minutes of exercise is recommended per day! Can you imagine exercising two hours
-            per day? OK, I know that wouldn't bother some of you reading this. But the thought of it to me makes me cringe! And by the way, exercising your dog does not mean you are being challenged to a push-up contest. Brisk walks are OK too! You can
-            also choose from a variety of toys to encourage physical activity; just be sure they are age appropriate and do not pose a choking hazard. Pay careful attention to toys that require supervision. Grooming & Handling Keeping your furry family
-            member clean is important to its health. So be sure to brush frequently to reduce the amount of shedding and prevent matted and tangled fur that can prove to be extremely difficult to remove. Check for insects such as ticks and fleas, especially
-            after visiting heavily wooded areas. Bathing is not only important to your dog’s health but can be an exercise depending on how strong willed the dog is. Rinse all of the soap out, as any residual soap can result in a rash. Be sure the soap
-            is formulated for your puppy or dog, since harsh soaps can cause allergic reactions. And as always, be careful how you handle your loved one. No matter the size of your dog, you need to be cautious as you carry your canine. If you have a small
-            dog, then cradle the pup with one hand under the chest and the forearm supporting the back half. If it is a large dog, reach under the belly with both your arms perpendicular to the dog, and use each arm to support the chest and rear as you
-            lift. Vaccinations & Medications You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended. Vaccines that reduce the exposure risk to things such as hepatitis, rabies, and parvovirus.
-            Others may be determined by your vet depending on the environment in which the dog resides. Some of these include Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria.
 
 
 
-        </p>
+    <div class="div-body-content fs-5">
+
+        <div class="div-left">
+        </div>
+
+        <div class="div-main-content d-grid m-3">
+            <h1 class="row p-4">
+                Dogs
+            </h1>
+            <div class="row">
+                <div class="col-8">
+                    <p class="p-2">
+                        The domestic dog is an extremely social animal and offers a diverse variety of choices as there are well over 300 breeds recognized by the World Canine Organization. Adopting a dog offers mutual benefits between dog and owner. Many studies cite the social
+                        benefits of having a companion as well as the reduced feelings of loneliness from adopting a dog. Studies even show medical indicators such as <a href="https://www.ahajournals.org/doi/10.1161/CIRCOUTCOMES.119.005554">reduced blood pressure and improved lipid profiles</a>.
+                        If you have a dog, it is important to make sure that you care for your dog; be mindful of what you feed your dog and provide enough opportunities for exercise. In this page, you will find more information about how to care for
+                        your pets throughout the various stages of their lives.
+                    </p>
+                </div>
+                <div class="col">
+                    <img class=" img-fluid img-thumbnail w-75 rounded" src="imgs/white dog black dog.jpg">
+                </div>
+            </div>
+            <br>
+            <h2 class="my-3">
+                Diet & Exercise
+            </h2>
+            <div class="row">
+                <img class="img-fluid img-thumbnail rounded w-50" src="imgs/dog with stick.jpg">
+                <div class="col">
+                    <p>
+                        Throughout dogs’ lifespans, they should generally be fed fewer meals as they mature. Puppies should be nursed the first two months, then introduced to three meals per day when they are about three to six months years old. Their food intake should be reduced
+                        to two meals per day when they are six months to one year old and finally reduced to one meal after they reach one year old. And a dog’s typical body mass is composed of somewhere between 60 and 70 percent water. The ASPCA says
+                        just a 10 percent decrease in body water can cause illness, and a 15 percent loss can cause death, so make sure you keep your pooch hydrated!
+                    </p>
+                    <p>
+                        Much like humans, dogs need to have a healthy level of activity to keep their organs healthy, as well as sun and fresh air. The minimum recommended time for exercise varies greatly with breed and size differences, but generally a range of 30–120 minutes
+                        of exercise is recommended per day! Can you imagine exercising two hours per day? OK, I know that wouldn't bother some of you reading this. But the thought of it to me makes me cringe! And by the way, exercising your dog does not
+                        mean you are being challenged to a push-up contest. Brisk walks are OK too! You can also choose from a variety of toys to encourage physical activity; just be sure they are age appropriate and do not pose a choking hazard. Pay
+                        careful attention to toys that require supervision.
+
+                    </p>
+                </div>
+            </div>
+            <br>
+            <h2 class="my-3">
+                Grooming & Handling
+            </h2>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        Keeping your furry family member clean is important to its health. So be sure to brush frequently to reduce the amount of shedding and prevent matted and tangled fur that can prove to be extremely difficult to remove. Check for insects such as ticks and
+                        fleas, especially after visiting heavily wooded areas. Bathing is not only important to your dog’s health but can be an exercise depending on how strong willed the dog is. Rinse all of the soap out, as any residual soap can result
+                        in a rash. Be sure the soap is formulated for your puppy or dog, since harsh soaps can cause allergic reactions. And as always, be careful how you handle your loved one. No matter the size of your dog, you need to be cautious as
+                        you carry your canine. If you have a small dog, then cradle the pup with one hand under the chest and the forearm supporting the back half. If it is a large dog, reach under the belly with both your arms perpendicular to the dog,
+                        and use each arm to support the chest and rear as you lift.
+                    </p>
+                </div>
+                <img class="img-fluid img-thumbnail w-25" src="imgs/black-white dog photo.jpg">
+            </div>
+
+            <h2 class="my-3">
+                Vaccinations & Medications
+            </h2>
+            <p class="mb-5">
+                You should always consult with your veterinarian, but there is a core set of vaccines that are typically recommended. Vaccines that reduce the exposure risk to things such as hepatitis, rabies, and parvovirus. Others may be determined by your vet depending
+                on the environment in which the dog resides. Some of these include <a href="https://www.aspca.org/pet-care/general-pet-care/vaccinations-your-pet">Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira bacteria</a>.
+            </p>
+        </div>
+
+
+        <div class="div-right">
+        </div>
+        <br>
+
     </div>
+
+    <footer class="bg-db d-grid w-100">
+        <div class="row text-white justify-content-md-center">
+            <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
+            <a class="col col-lg-3 pt-4 link-light" href="contact-us.html">Contact Us</a>
+            <a href="index.html" class="w-5">
+                <img class="img-fluid img-thumbnail shrink-photo mt-2" src="imgs/dog logo.png">
+            </a>
+        </div>
+        <div class="copyright row text-center fc-s">
+            <P>Copyright © 2021 Paradigm Pet Professionals, All Rights Reserved</P>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -9,9 +9,12 @@ html,
 body {
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-#header {
+header {
     background-image: linear-gradient(var(--ppp-lb), var(--ppp-db));
     color: white;
     display: grid;
@@ -30,11 +33,7 @@ body {
 
 #ppp {
     font-style: bold;
-}
-
-#slogan {
-    font-style: italic;
-    vertical-align: bottom;
+    color: white;
 }
 
 .navbar {
@@ -73,22 +72,17 @@ input {
 .div-left,
 .div-right {
     height: inherit;
-    width: 10%;
-    display: inline-block;
+    min-width: 10%;
     background-image: linear-gradient(to right, var(--ppp-s), white, var(--ppp-s));
     flex-grow: 1;
 }
 
 .div-body-content {
     display: inline-flex;
-    flex-direction: row;
-    align-items: stretch;
-    border-style: solid;
-    border-color: black;
 }
 
 .div-main-content {
-    width: 85%;
+    width: 100%;
     padding-top: 15px;
     flex-grow: 75%;
     padding-left: 20px;
@@ -96,40 +90,70 @@ input {
     float: left;
 }
 
-.top-of-page {
-    padding: 30px;
+.active {
+    background-color: var(--ppp-dg);
 }
 
-#cat-jail {
-    max-width: 35%;
-    float: right;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.text-and-image {
-    display: float;
-}
-
-h* {
-    color: var(--ppp-db);
-    text-align: center;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--ppp-db);
 }
 
+.bg-db {
+    background-color: var(--ppp-db);
+}
 
-/* .shrink-photo {
-    max-width: 40%;
-    margin: 20px;
-} */
+.fc-db {
+    color: var(--ppp-db);
+}
 
+.fc-s {
+    color: var(--ppp-s);
+}
 
-/* .img-div {
-    /* flex: calc(); 
-    padding-left: 1%;
-    max-width: 20%;
-    overflow: hidden;
-} */
+.w-5 {
+    width: 5%;
+}
+
+.link-light {
+    color: white;
+    text-decoration: none;
+}
+
+.link-light:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: -5px;
+}
+
+.copyright {
+    font-size: 9px;
+}
+
+.mb-6 {
+    margin-bottom: 4rem !important;
+}
+
+.ml-1 {
+    margin-left: 1rem !important;
+}
+
+#pet-name,
+#pet-age {
+    margin: 0;
+    padding: 0;
+}
+
+#pet-name {
+    margin-right: 5px;
+}
+
+#pet-age {
+    margin-left: 5px;
+}

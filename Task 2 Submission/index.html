@@ -3,12 +3,11 @@
 
 <head>
     <script src="script.js"></script>
-    <title>Paradigm Pet Professionals</title>
+    <title>Home - Paradigm Pet Professionals</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="ppp, Paradigm, pet, Professionals, Paradigm pet Professionals, pets, dogs, cats, animals, Pexperts, small animals, small-animal">
+    <meta name="keywords" content="new pet consultation, new pet care consultation, ppp, Paradigm, pet, Professionals, Paradigm pet Professionals, pets, dogs, cats, animals, Pexperts, small animals, small-animal">
     <meta name="author" content="Brandon Egbert">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -17,44 +16,43 @@
 
 
 
-    <header id="header">
+    <header>
         <a href="index.html">
-            <img id="ppp-logo" src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
+            <img id="ppp-logo" class="h-100" src="imgs/ppp logo.png" alt="Paradigm Pet Professionals">
         </a>
         <div class="ppp-slogan">
-            <h1 id="ppp">Paradigm Pet Professionals</h1>
-            <p id="slogan">Evidence-based pet care advice for every pet lover</p>
+            <h1 id="ppp" class="display-3">Paradigm Pet Professionals</h1>
+            <p id="slogan" class="slogan fs-4 fst-italic">Evidence-based pet care advice for every pet lover</p>
         </div>
 
     </header>
 
 
-
-
-
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="dogs.html">Dog Owners</a>
-                    <a class="nav-link" href="cats.html">Cat Owners</a>
-                    <a class="nav-link" href="birds.html">Bird Owners</a>
-                    <a class="nav-link" href="about-us.html">About-Us</a>
+    <nav class="navbar navbar-expand-lg bg-dark py-0">
+        <div class="container-fluid h-100 my-0">
+            <div class="collapse navbar-collapse h-100">
+                <div class="navbar-nav fs-5 h-100">
+                    <a class="nav-link h-100 active" href="index.html">Home</a>
+                    <a class="nav-link h-100" href="dogs.html">Dog Owners</a>
+                    <a class="nav-link h-100" href="cats.html">Cat Owners</a>
+                    <a class="nav-link h-100" href="birds.html">Bird Owners</a>
+                    <a class="nav-link h-100" href="contact-us.html">Contact Us</a>
+                    <a class="nav-link h-100" href="about-us.html">About Us</a>
                 </div>
             </div>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-sm btn-outline-secondary" type="submit">Fetch</button>
+                <input class="form-control me-2 fs-6" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Fetch</button>
             </form>
         </div>
     </nav>
 
 
 
-    <div class="div-body-content">
 
 
+
+    <div class="div-body-content fs-5">
 
         <div class="div-left">
 
@@ -62,66 +60,90 @@
 
 
         <div class="div-main-content">
-            <h1>Welcome!</h1>
-            <div class="rounded text-and-image d-inline-flex" id="home-first-p">
-                <img src="imgs/goldfish in bowl.jpg" alt="Goldfish" class="img-fluid img-thumbnail mx-md-2 shrink-photo w-75">
-                <p class="main-content top-of-page float-lg-none">
-                    Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission
-                    is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one
-                    consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals. </p>
+            <h2 class="text-center display-5 m-5 font-weight-bold">Welcome!</h2>
+            <div class="rounded text-and-image d-grid  mt-3">
+                <div class="row">
+                    <p class="main-content col top-of-page float-none lead fs-4 mx-5 ">
+                        Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission
+                        is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one
+                        consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals. </p>
+                    <img src="imgs/goldfish in bowl.jpg" alt="Goldfish" class="img-fluid col shrink-photo img-thumbnail mx-md-2 shrink-photo w-50" id="fish-bowl">
+                </div>
+
             </div>
             <br><br>
 
 
-            <img src="imgs/cat and bird.jpg" alt="Cat sitting outside with a bird" class="img-fluid shrink-photo  img-thumbnail mx-auto">
-
-            <h3>
-                Pet Care
-            </h3>
-
-            <br>
-            <p class="main-content">
-                Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness
-                of your new companion.
-
-            </p>
+            <div class="div-main-content w-100 d-grid">
+                <h2 class="display-6 my-5">
+                    Pet Care
+                </h2>
+                <div class="row gap-4">
+                    <img class="img-fluid w-50 col float-start img-thumbnail mx-auto text-and-image mx-5" src="imgs/cat and bird.jpg" alt="Cat sitting outside with a bird">
+                    <p class="main-content col text-and-image fs-5 lead ml-2">
+                        Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness
+                        of your new companion.
+                    </p>
+                </div>
+            </div>
             <br><br>
-            <div class="text-and-image">
-                <h3>
+            <div class="div-main-content d-grid w-100">
+                <h2 class="display-6 mt-5">
                     Adoption
-                </h3>
+                </h2>
                 <br>
-                <img src="imgs/kitten in jail.jpg" id="cat-jail">
-                <p class="main-content">
-                    Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
-                    <br>
-                    <ul>
-                        <li>General Adoption Resources: <a href="https://theshelterpetproject.org/">https://theshelterpetproject.org/</a></li>
-                        <li>ASPCA:
-                            <a href="https://www.aspca.org/">https://www.aspca.org/</a>
-                        </li>
-                        <li>Fish Rescue:
-                            <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a>
-                        </li>
-                        <li>Snake Rescue:
-                            <a href="https://savethesnakes.org/snakerescuecall/">https://savethesnakes.org/snakerescuecall/</a>
-                        </li>
-                        <li>Bird Rescue:
-                            <a href="https://ftlob.rescuegroups.org/">https://ftlob.rescuegroups.org/</a>
-                        </li>
-                    </ul>
-                </p>
+                <div>
+                    <div class="row gap-4">
+                        <div class="col">
+                            <p class="main-content lead fs-5">
+                                Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
+                                <br>
+                                <ul class="lead fs-5">
+                                    <li>General Adoption Resources: <a href="https://theshelterpetproject.org/">https://theshelterpetproject.org/</a>
+                                    </li>
+                                    <li>ASPCA:
+                                        <a href="https://www.aspca.org/">https://www.aspca.org/</a>
+                                    </li>
+                                    <li>Fish Rescue:
+                                        <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a>
+                                    </li>
+                                    <li>Snake Rescue:
+                                        <a href="https://savethesnakes.org/snakerescuecall/">https://savethesnakes.org/snakerescuecall/</a>
+                                    </li>
+                                    <li>Bird Rescue:
+                                        <a href="https://ftlob.rescuegroups.org/">https://ftlob.rescuegroups.org/</a>
+                                    </li>
+                                </ul>
+                                <p class="main-content lead fs-5">
+                                    We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing
+                                    your new loved one home. Please fill out our <a href="contact-us.html">contact form</a> to request a consultation. We will contact you within 48 hours to schedule a consultation.
+                                    All fields are required.
+                                </p>
+                            </p>
+                        </div>
+                        <img class="img-fluid col img-thumbnail w-50 shrink-photo mb-5" src="imgs/kitten in jail.jpg" id="cat-jail">
+                    </div>
+                </div>
             </div>
             <br>
-            <p class="main-content">
-                We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing
-                your new loved one home. Please fill out our <a href="contact-us.html">contact form</a> to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
-            </p>
-
         </div>
         <div class="div-right">
         </div>
     </div>
+    <footer class="bg-db d-grid w-100">
+        <div class="row text-white justify-content-md-center">
+            <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
+            <a class="col col-lg-3 pt-4 link-light" href="contact-us.html">Contact Us</a>
+            <a href="index.html" class="w-5">
+                <img class="img-fluid img-thumbnail shrink-photo mt-2" src="imgs/dog logo.png">
+            </a>
+        </div>
+
+        <div class="copyright row text-center fc-s">
+            <P>Copyright © 2021 Paradigm Pet Professionals, All Rights Reserved</P>
+        </div>
+
+    </footer>
 </body>
 
 </html>
