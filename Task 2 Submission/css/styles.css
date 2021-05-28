@@ -107,6 +107,10 @@ h6 {
     background-color: var(--ppp-db);
 }
 
+.bg-lb {
+    background-color: var(--ppp-lb);
+}
+
 .fc-db {
     color: var(--ppp-db);
 }
@@ -130,6 +134,7 @@ h6 {
 
 footer {
     margin-top: -5px;
+    padding: 10px;
 }
 
 .copyright {
@@ -144,16 +149,23 @@ footer {
     margin-left: 1rem !important;
 }
 
-#pet-name,
-#pet-age {
+.mr-1 {
+    margin-right: 1rem !important;
+}
+
+.mp-0 {
     margin: 0;
     padding: 0;
 }
 
-#pet-name {
-    margin-right: 5px;
+.mw-50 {
+    max-width: 50%;
 }
 
-#pet-age {
-    margin-left: 5px;
+.min-h400px {
+    height: 400px;
+}
+
+.h-100px {
+    min-height: 100px;
 }

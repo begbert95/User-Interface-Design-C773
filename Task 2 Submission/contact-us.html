@@ -48,62 +48,75 @@
     </nav>
 
 
-    <div class="div-body-content">
+    <div class="div-body-content w-100">
 
         <div class="div-left">
         </div>
 
-        <div class="div-main-content d-grid m-3">
-            <div class="row p-2 fs-5">
-                <h1 class="">
-                    Contact Us
-                </h1>
-                <p class="">
-                    Have questions? Want to learn more? Need advice? Reach out! We're happy to address any questions you may have
-                </p>
+        <div class="div-main-content d-grid m-3 w-75 mb-6">
+            <h1 class="row p-3">
+                Contact Us
+            </h1>
+            <div class="row p-2 ">
+                <div class="col">
+                    <p class="fs-5">
+                        Have questions? Want to learn more? Need advice? Reach out! We're happy to address any questions you may have
+                        <div class="d-grid m-3">
+                            <form class="min-h400px">
+                                <div class="row">
+                                    <div class="form-floating mb-3 col mp-0 mr-1">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                                        <label for="floatingInput">Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3 col-sm mp-0 ml-1">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-floating mb-3 col mp-0 mr-1">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="Pet's Name">
+                                        <label for="floatingInput">Pet's Name</label>
+                                    </div>
+                                    <div class="form-floating mb-3 col-sm mp-0 ml-1">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="Pet's age">
+                                        <label for="floatingInput">Pet's Age</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-floating mb-3 pb-1 row">
+                                    <select class="form-select h-auto" id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected>-None-</option>
+                                    <option value="1">Dog</option>
+                                    <option value="2">Cat</option>
+                                    <option value="3">Bird</option>
+                                    <option value="4">Fish</option>
+                                    <option value="5">Small animal</option>
+                                    <option value="6">Other</option>
+                                </select>
+                                    <label for="floatingSelect">Type of pet</label>
+                                </div>
+
+                                <div class="form-floating row mb-3 h-100px">
+                                    <textarea class="form-control h-auto" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                                    <label for="floatingTextarea2">Comments</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary bg-lb">Submit</button>
+                            </form>
+                        </div>
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img class="img-thumbnail img-fluid" src="imgs/interaction photo.jpg">
+
+                </div>
             </div>
 
-            <div class="d-grid m-3">
-                <form class="px-4">
-                    <div class="form-floating mb-3 row">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Name">
-                        <label for="floatingInput">Name</label>
-                    </div>
-                    <div class="form-floating mb-3 row">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="row">
-                        <div class="form-floating mb-3 col" id="pet-name">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Pet's Name">
-                            <label for="floatingInput">Pet's Name</label>
-                        </div>
-                        <div class="form-floating mb-3 col-sm" id="pet-age">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Pet's age">
-                            <label for="floatingInput">Pet's Age</label>
-                        </div>
-                    </div>
 
 
-                    <div class="form-floating mb-3 row">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected>-None-</option>
-                          <option value="1">Dog</option>
-                          <option value="2">Cat</option>
-                          <option value="3">Bird</option>
-                          <option value="4">Fish</option>
-                          <option value="5">Small animals</option>
-                          <option value="6">Other</option>
-                        </select>
-                        <label for="floatingSelect">Type of pet</label>
-                    </div>
-
-                    <div class="form-floating row">
-                        <textarea class="form-control h-100px" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
-                    </div>
-                </form>
-            </div>
         </div>
 
         <div class="div-right">
